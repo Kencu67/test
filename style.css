@@ -371,6 +371,7 @@ img {
     letter-spacing: 4px;
   }
   .youtube {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: 8% 5% 0% 5%;
     padding: 0;
   }
